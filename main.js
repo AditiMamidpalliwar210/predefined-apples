@@ -18,7 +18,7 @@ var SpeechRecognition = window.webkitSpeechRecognition;
   
 var recognition = new SpeechRecognition();
 
-function start()
+function Start()
 {
   document.getElementById("status").innerHTML = "System is listening please speak";  
   recognition.start();
